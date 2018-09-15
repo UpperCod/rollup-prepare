@@ -1,0 +1,20 @@
+{
+  "name": "rollup-prepare",
+  "version": "0.0.0",
+  "description": "Creates a minimum configuration of rollup from an object",
+  "main": "dist/rollup-prepare.js",
+  "source": "src/index.js",
+  "author": "Matias Trujillo Olivares",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UpperCod/rollup-prepare.git"
+  },
+  "scripts": {
+    "watch": "microbundle -c -w",
+    "build": "microbundle -c"
+  },
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  }
+}
